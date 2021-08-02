@@ -27,6 +27,7 @@
              }
              localStorage.setItem('email',x);
              localStorage.setItem('password',pass);
+             alert("signup done successfully");
          }
          function login_val(){
              const x=document.querySelector("form.login input[name='Email']").value;
