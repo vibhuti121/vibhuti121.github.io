@@ -6,84 +6,33 @@
     <title>Vibhuti Raman - Resume</title>
     <link rel="stylesheet" href="https://kit.fontawesome.com/b99e675b6e.css">
     <link rel="stylesheet" type="text/css" href="1.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .resume {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .resume_header, .resume_section {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        .resume_header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .resume_header h1 {
-            font-size: 28px;
-            margin: 0;
-        }
-        .contact_info {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-        }
-        .resume_section h2 {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-        .section_item {
-            margin-bottom: 15px;
-        }
-        .experience, .education {
-            margin-bottom: 15px;
-        }
-        .experience_title, .education_title {
-            font-weight: bold;
-        }
-        .date {
-            font-style: italic;
-        }
-        .skills ul {
-            columns: 2;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-    </style>
 </head>
 <body>
     <div class="resume">
-        <div class="resume_header">
+        <header class="resume_header">
             <h1>Vibhuti Raman</h1>
             <div class="contact_info">
                 <p><i class="fas fa-envelope"></i> ramanvibhuti121@gmail.com</p>
                 <p><i class="fas fa-phone"></i> +91-9587903088</p>
                 <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/vibhuti-raman-43885a193" target="_blank">LinkedIn</a></p>
             </div>
-        </div>
+        </header>
 
-        <div class="resume_section">
+        <section class="resume_section">
             <h2>About Me</h2>
             <p>Experienced Backend Developer with 2+ years in developing and optimizing scalable Java & Node.js based solutions. Strong background in API development, microservices, and cloud technologies with a focus on improving system performance and user experience.</p>
-        </div>
+        </section>
 
-        <div class="resume_section">
+        <section class="resume_section">
             <h2>Education</h2>
             <div class="section_item">
                 <div class="education_title">IIT Dharwad, Karnataka, India</div>
                 <div class="date">August 2018 - May 2022</div>
                 <p>B.Tech -- Computer Science and Engineering</p>
             </div>
-        </div>
+        </section>
 
-        <div class="resume_section">
+        <section class="resume_section">
             <h2>Experience</h2>
             <div class="experience">
                 <div class="experience_title">Paytm, Software Developer (Backend Flights)</div>
@@ -108,9 +57,9 @@
                     <li>Developed the UI using React framework, improving user experience.</li>
                 </ul>
             </div>
-        </div>
+        </section>
 
-        <div class="resume_section">
+        <section class="resume_section">
             <h2>Skills</h2>
             <div class="skills">
                 <ul>
@@ -118,7 +67,7 @@
                     <li><strong>Web Technologies:</strong> HTML, CSS, Node.js, Spring Boot</li>
                 </ul>
             </div>
-        </div>
+        </section>
     </div>
 </body>
 </html>
