@@ -15,35 +15,60 @@ body {
     padding: 20px; /* Added padding for better spacing */
     background: #fff;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
 }
 
 .resume_header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #2a2a2a;
     padding-bottom: 20px;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.profile_pic {
+    flex: 0 0 100px; /* Fixed width for profile picture */
+    margin-right: 20px; /* Spacing between image and text */
+}
+
+.profile_pic img {
+    width: 100%;
+    border-radius: 50%; /* Circle profile picture */
+    border: 2px solid #2a2a2a; /* Border around the profile picture */
+}
+
+.header_info {
+    flex: 1; /* Allow the header info to take remaining space */
 }
 
 .resume_header h1 {
     font-size: 28px;
     margin: 0;
+    color: #2a2a2a; /* Header color */
 }
 
 .contact_info {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start; /* Align left */
+}
+
+.contact_info p {
+    margin: 5px 0; /* Spacing between contact items */
 }
 
 .resume_section {
     margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9; /* Light gray background for sections */
+    border-left: 5px solid #4CAF50; /* Green left border */
+    border-radius: 5px; /* Rounded corners for sections */
 }
 
 .resume_section h2 {
     font-size: 22px;
     margin-bottom: 10px;
-    color: #2a2a2a; /* Added color for headings */
+    color: #4CAF50; /* Green color for section titles */
 }
 
 .section_item {
@@ -57,6 +82,7 @@ body {
 .experience_title, .education_title {
     font-weight: bold;
     font-size: 18px; /* Increased font size for better visibility */
+    color: #2a2a2a; /* Darker color for titles */
 }
 
 .date {
